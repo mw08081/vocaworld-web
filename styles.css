@@ -51,3 +51,4 @@
 .policy-section p{overflow-wrap:anywhere}
 .footer-policy-link{margin:0 16px 10px 0}
 @media(max-width:660px){.policy-table th,.policy-table td{padding:10px 8px;font-size:12px}.policy-details>div{grid-template-columns:95px 1fr;gap:10px}.policy-table th:first-child{width:25%}.policy-table th:nth-child(2){width:30%}}
+
