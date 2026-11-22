@@ -2,6 +2,7 @@ import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { parseEnv } from 'node:util';
+import { copyFileSync } from "node:fs";
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 let local = {};
@@ -39,3 +40,9 @@ for (const name of ['styles.css', 'script.js', 'robots.txt']) {
 }
 await cp(join(root, 'assets'), join(output, 'assets'), { recursive: true });
 console.log('Built index.html, privacy.html and terms.html into dist with public contact details.');
+
+
+copyFileSync(
+  "google055917c2eda136a9.html",
+  "dist/google055917c2eda136a9.html"
+);
