@@ -29,7 +29,7 @@ const publicInfo = {
 };
 const output = join(root, 'dist');
 await mkdir(output, { recursive: true });
-for (const name of ['index.html', 'privacy.html', 'terms.html']) {
+for (const name of ['index.html', 'privacy.html', 'terms.html', 'account-deletion.html']) {
   let html = await readFile(join(root, name), 'utf8');
   html = html.replace(/(<(span|p|dd)\b[^>]*data-site-info="([^"]+)"[^>]*>)[\s\S]*?(<\/\2>)/g,
     (match, opening, tag, key, closing) => publicInfo[key] ? `${opening}${publicInfo[key]}${closing}` : match);
@@ -39,7 +39,7 @@ for (const name of ['styles.css', 'script.js', 'robots.txt']) {
   await cp(join(root, name), join(output, name));
 }
 await cp(join(root, 'assets'), join(output, 'assets'), { recursive: true });
-console.log('Built index.html, privacy.html and terms.html into dist with public contact details.');
+console.log('Built site pages into dist with public contact details.');
 
 
 copyFileSync(
