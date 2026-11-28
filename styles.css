@@ -59,4 +59,4 @@
 @media(max-width:660px){.deletion-page{padding:56px 0 75px}.deletion-intro{margin-bottom:32px}.deletion-intro h1{letter-spacing:-1.8px}.deletion-grid{grid-template-columns:1fr;gap:12px}.deletion-card{padding:25px;border-radius:20px}.deletion-footer .container{flex-wrap:wrap}}
 
 
-.store-link{display:inline-block;line-height:0;border-radius:14px;transition:transform .2s,box-shadow .2s}.store-link img{display:block;width:270px;max-width:100%;height:auto}.store-link:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(50,27,107,.2)}.store-link:focus-visible{outline:3px solid var(--violet);outline-offset:4px}
+.store-link{display:inline-block;line-height:0;border-radius:14px;transition:transform .2s,box-shadow .2s}.store-link img{display:block;width:210px;max-width:100%;height:auto}.store-link:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(50,27,107,.2)}.store-link:focus-visible{outline:3px solid var(--violet);outline-offset:4px}
