@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="74" viewBox="0 0 270 74" role="img" aria-labelledby="title">
+<title id="title">???? ??????? ????</title>
+<rect x=".5" y=".5" width="269" height="73" rx="14" fill="#19151f" stroke="#50475e"/>
+<path d="M22 16v42l22-21z" fill="#55c9f4"/><path d="m22 16 27 16-5 5z" fill="#77d179"/><path d="m22 58 27-16-5-5z" fill="#f25e69"/><path d="m44 37 5-5 7 4c1 .6 1 1.4 0 2l-7 4z" fill="#ffcf52"/>
+<text x="70" y="28" fill="#fff" font-family="Arial, sans-serif" font-size="12">GET IT ON</text>
+<text x="70" y="51" fill="#fff" font-family="Arial, sans-serif" font-size="21" font-weight="700">Google Play</text>
+</svg>
